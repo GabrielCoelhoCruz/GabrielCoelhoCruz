@@ -71,14 +71,10 @@ FullStack Developer from São Paulo, Brazil 🇧🇷<br><br>
 <h3 align="left">🔥 My Stats:</h3>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=GabrielCoelhoCruz&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GabrielCoelhoCruz&theme=github_dark" alt="profile details"  />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GabrielCoelhoCruz&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=GabrielCoelhoCruz&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dark&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/GabrielCoelhoCruz/GabrielCoelhoCruz/output/snake.svg" alt="Snake animation" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GabrielCoelhoCruz&theme=github_dark" height="150" alt="stats"  />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=GabrielCoelhoCruz&theme=github_dark&utcOffset=-3" height="150" alt="productive time"  />
 </div>
