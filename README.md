@@ -1,80 +1,30 @@
-<div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
-</div>
+# Gabriel Cruz
 
-###
+Software / AI engineer at [Clio](https://www.clio.com), on the Learned Hand team: AI for judges and courts.
+I build the parts that make LLM output trustworthy: citation verification, evals, and document pipelines.
+São Paulo, Brazil.
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/gabrielccruz20/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
-  <a href="mailto:coelhoc.gabriel@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
-  </a>
-  <a href="https://www.instagram.com/biielcoelho/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
-  </a>
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielccruz20/)
+[![Email](https://img.shields.io/badge/Email-coelhoc.gabriel%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:coelhoc.gabriel@gmail.com)
 
-###
+## What I work on
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=GabrielCoelhoCruz.GabrielCoelhoCruz&"  />
-</div>
+The code is private. In short:
 
-###
+- **Citation integrity.** Every legal authority the model writes must resolve to its real source and render as a working link, in chat, drafted documents, and Word and PDF export.
+- **LLM evals.** Harnesses that replay frozen outputs through the real production pipeline and report an unscorable trial as unresolved, never as a pass.
+- **Agent reliability.** Long-running drafting agents that recover from model fallbacks, truncated tool arguments, and cancelled turns.
+- **Production safety.** Fail-closed database migrations with fleet rollback, and a prompt-boundary guard against prompt injection.
 
-<h1 align="center">Hey there 👋 I'm Gabriel Cruz</h1>
+**Stack:** Python · FastAPI · Temporal · PostgreSQL + pgvector · React · TypeScript · AWS · Azure OpenAI · Amazon Bedrock
 
-###
+## Projects
 
-<h3 align="left">👨‍💻  About Me</h3>
+- [**BS Detector**](https://github.com/GabrielCoelhoCruz/lh-ai-fs) — a seven-stage pipeline that checks a legal brief against its cited authorities and the case record. Deterministic orchestrator, typed handoffs, LLMs judge only inside stages. 98.3% recall, 80.5% precision, 0% ungrounded evidence over 5 live runs.
+- [**seshat-vault**](https://github.com/GabrielCoelhoCruz/seshat-vault) — local semantic retrieval for Markdown vaults: hybrid lexical and multilingual embedding search, served to agents over MCP, with an eval suite in CI.
+- [**jev-scanr**](https://github.com/GabrielCoelhoCruz/jev-scanr) — a refactoring queue for TypeScript and JavaScript projects, ranked by a small judgment model.
+- [**spotilyze**](https://github.com/GabrielCoelhoCruz/spotilyze) — self-hosted Spotify analytics: OAuth PKCE, encrypted tokens, background sync, Docker.
 
-<p align="left">
-FullStack Developer from São Paulo, Brazil 🇧🇷<br><br>
-- 🔭 Building dashboards, APIs and web applications for clients<br>
-- ⚙️ Main stack: React, TypeScript, Next.js, Python, FastAPI, PostgreSQL<br>
-- ☁️ Working with Azure cloud infrastructure and authentication systems<br>
-- 🤖 Exploring AI integrations and automation solutions<br>
-- 📚 Currently diving deeper into security tools and API integrations<br>
-- 💼 Open to freelance projects and collaborations
-</p>
+---
 
-<h3 align="left">🛠 Languages and Tools</h3>
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="fastapi logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="azure logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="40" alt="tailwindcss logo"  />
-</div>
-
-<h3 align="left">🔥 My Stats:</h3>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GabrielCoelhoCruz&theme=github_dark" alt="profile details"  />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GabrielCoelhoCruz&theme=github_dark" height="150" alt="stats"  />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=GabrielCoelhoCruz&theme=github_dark&utcOffset=-3" height="150" alt="productive time"  />
-</div>
+The best way to reach me is [LinkedIn](https://www.linkedin.com/in/gabrielccruz20/).
