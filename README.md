@@ -9,14 +9,12 @@ São Paulo, Brazil.
 
 ## What I work on
 
-The code is private. In short:
+- **Grounded legal AI.** Making sure every authority the model cites is real, verified, and linked to its source, in chat, drafted documents, and exports.
+- **LLM evals.** Building evaluation harnesses that measure output quality against the real production pipeline.
+- **Agent reliability.** Keeping long-running drafting agents stable when models fail, time out, or get cancelled.
+- **Production safety.** Safe database migrations, deploy gates, and defenses against prompt injection.
 
-- **Citation integrity.** Every legal authority the model writes must resolve to its real source and render as a working link, in chat, drafted documents, and Word and PDF export.
-- **LLM evals.** Harnesses that replay frozen outputs through the real production pipeline and report an unscorable trial as unresolved, never as a pass.
-- **Agent reliability.** Long-running drafting agents that recover from model fallbacks, truncated tool arguments, and cancelled turns.
-- **Production safety.** Fail-closed database migrations with fleet rollback, and a prompt-boundary guard against prompt injection.
-
-**Stack:** Python · FastAPI · Temporal · PostgreSQL + pgvector · React · TypeScript · AWS · Azure OpenAI · Amazon Bedrock
+**Stack:** Python · FastAPI · Temporal · PostgreSQL · React · TypeScript · AWS · LLM APIs (OpenAI, Anthropic)
 
 ## Projects
 
